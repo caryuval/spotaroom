@@ -8,7 +8,7 @@ export const RoomCard = ({
   title
 }) => {
   return (
-    <article className="my-3 p-4 border">
+    <article className="my-4 p-4 border">
       <div className="row">
         <div className="col-md-3 mb-2 mb-md-0">
           <img
