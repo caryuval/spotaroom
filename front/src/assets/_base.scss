@@ -1,0 +1,16 @@
+body {
+  color: $black;
+}
+
+img.hover:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 6px 8px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.badge-price {
+  color: $third-color;
+  padding: 0.25rem 0.75rem;
+  background-color: $black;
+  border-radius: 10px;
+  font-weight: bolder;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "spotaroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./front && npm start",
+    "start:server": "cd ./graphql-api && npm start"
+  },
+  "author": "caryuval@gmail.com",
+  "license": "ISC"
+}

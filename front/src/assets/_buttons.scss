@@ -1,0 +1,15 @@
+button.btn,
+button.btn:hover {
+  color: white;
+  font-weight: bolder;
+  border-radius: 0;
+  border: 0;
+  &.first-color {
+    background-color: $first-color;
+    border-bottom: 5px solid $first-color-dark;
+  }
+  &.second-color {
+    background-color: $second-color;
+    border-bottom: 5px solid $second-color-dark;
+  }
+}
